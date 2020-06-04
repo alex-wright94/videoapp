@@ -13,6 +13,10 @@
 		EE69BBE32476EFFA0041D6D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE69BBE12476EFFA0041D6D4 /* Main.storyboard */; };
 		EE69BBE52476F0000041D6D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE69BBE42476F0000041D6D4 /* Assets.xcassets */; };
 		EE69BBE82476F0000041D6D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE69BBE62476F0000041D6D4 /* LaunchScreen.storyboard */; };
+		EE87A610247D824E0075C056 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87A60F247D824E0075C056 /* Constants.swift */; };
+		EE87A612247D85E80075C056 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87A611247D85E80075C056 /* Video.swift */; };
+		EE87A614247D88650075C056 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87A613247D88650075C056 /* Model.swift */; };
+		EE87A6162489765C0075C056 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87A6152489765C0075C056 /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		EE69BBE42476F0000041D6D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE69BBE72476F0000041D6D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE69BBE92476F0000041D6D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE87A60F247D824E0075C056 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EE87A611247D85E80075C056 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		EE87A613247D88650075C056 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		EE87A6152489765C0075C056 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				EE69BBE42476F0000041D6D4 /* Assets.xcassets */,
 				EE69BBE62476F0000041D6D4 /* LaunchScreen.storyboard */,
 				EE69BBE92476F0000041D6D4 /* Info.plist */,
+				EE87A60F247D824E0075C056 /* Constants.swift */,
+				EE87A611247D85E80075C056 /* Video.swift */,
+				EE87A613247D88650075C056 /* Model.swift */,
+				EE87A6152489765C0075C056 /* Response.swift */,
 			);
 			path = videoapp;
 			sourceTree = "<group>";
@@ -141,6 +153,10 @@
 				EE69BBE02476EFFA0041D6D4 /* ViewController.swift in Sources */,
 				EE69BBDC2476EFFA0041D6D4 /* AppDelegate.swift in Sources */,
 				EE69BBDE2476EFFA0041D6D4 /* SceneDelegate.swift in Sources */,
+				EE87A614247D88650075C056 /* Model.swift in Sources */,
+				EE87A610247D824E0075C056 /* Constants.swift in Sources */,
+				EE87A612247D85E80075C056 /* Video.swift in Sources */,
+				EE87A6162489765C0075C056 /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
