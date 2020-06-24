@@ -10,6 +10,8 @@
 		EE61EE192492BA89009A5D97 /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE61EE182492BA89009A5D97 /* ConstantsTemplate.swift */; };
 		EE61EE1B249BDB1A009A5D97 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE61EE1A249BDB1A009A5D97 /* VideoTableViewCell.swift */; };
 		EE61EE22249BF101009A5D97 /* cacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE61EE21249BF101009A5D97 /* cacheManager.swift */; };
+		EE61EE2424A3B4F1009A5D97 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE61EE2324A3B4F1009A5D97 /* DetailViewController.swift */; };
+		EE61EE2724A3C868009A5D97 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE61EE2624A3C868009A5D97 /* WebKit.framework */; };
 		EE69BBDC2476EFFA0041D6D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE69BBDB2476EFFA0041D6D4 /* AppDelegate.swift */; };
 		EE69BBDE2476EFFA0041D6D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE69BBDD2476EFFA0041D6D4 /* SceneDelegate.swift */; };
 		EE69BBE02476EFFA0041D6D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE69BBDF2476EFFA0041D6D4 /* ViewController.swift */; };
@@ -26,6 +28,8 @@
 		EE61EE182492BA89009A5D97 /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 		EE61EE1A249BDB1A009A5D97 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		EE61EE21249BF101009A5D97 /* cacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cacheManager.swift; sourceTree = "<group>"; };
+		EE61EE2324A3B4F1009A5D97 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EE61EE2624A3C868009A5D97 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		EE69BBD82476EFFA0041D6D4 /* videoapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videoapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE69BBDB2476EFFA0041D6D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE69BBDD2476EFFA0041D6D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE61EE2724A3C868009A5D97 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				EE69BBDF2476EFFA0041D6D4 /* ViewController.swift */,
+				EE61EE2324A3B4F1009A5D97 /* DetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -96,11 +102,20 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		EE61EE2524A3C867009A5D97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE61EE2624A3C868009A5D97 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EE69BBCF2476EFFA0041D6D4 = {
 			isa = PBXGroup;
 			children = (
 				EE69BBDA2476EFFA0041D6D4 /* videoapp */,
 				EE69BBD92476EFFA0041D6D4 /* Products */,
+				EE61EE2524A3C867009A5D97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -199,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE61EE2424A3B4F1009A5D97 /* DetailViewController.swift in Sources */,
 				EE69BBE02476EFFA0041D6D4 /* ViewController.swift in Sources */,
 				EE69BBDC2476EFFA0041D6D4 /* AppDelegate.swift in Sources */,
 				EE69BBDE2476EFFA0041D6D4 /* SceneDelegate.swift in Sources */,
